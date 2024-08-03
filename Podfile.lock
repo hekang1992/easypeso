@@ -1,0 +1,140 @@
+PODS:
+  - AAILiveness (2.0.8):
+    - AAINetwork
+  - AAINetwork (1.0.2)
+  - Alamofire (5.8.1)
+  - AppsFlyerFramework (6.12.2):
+    - AppsFlyerFramework/Main (= 6.12.2)
+  - AppsFlyerFramework/Main (6.12.2)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
+  - DeviceKit (5.1.0)
+  - HandyJSON (5.0.4-beta)
+  - IQKeyboardManagerSwift (6.5.16)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (7.10.0)
+  - MarqueeLabel (4.4.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.6)
+  - "NSObject+Rx (5.2.2)":
+    - RxSwift (~> 6.2)
+  - OpenCombine (0.14.0)
+  - OpenCombineDispatch (0.14.0):
+    - OpenCombine (>= 0.13.0)
+  - OpenCombineFoundation (0.14.0):
+    - OpenCombine (>= 0.13.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SnapKit (5.6.0)
+  - Then (3.0.0)
+  - TYCyclePagerView (1.2.0)
+
+DEPENDENCIES:
+  - "AAILiveness (from `{:http=>\"https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.8/iOS-Liveness-SDK-V2.0.8.tar.bz2\", :type=>:tbz}`)"
+  - "AAINetwork (from `{:http=>\"https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.2.tar.bz2\", :type=>:tbz}`)"
+  - Alamofire
+  - AppsFlyerFramework
+  - BRPickerView
+  - DeviceKit
+  - HandyJSON (from `https://github.com/Miles-Matheson/HandyJSON.git`)
+  - IQKeyboardManagerSwift
+  - KeychainAccess
+  - Kingfisher
+  - MarqueeLabel
+  - MBProgressHUD
+  - MJRefresh
+  - "NSObject+Rx"
+  - OpenCombine (~> 0.14.0)
+  - OpenCombineDispatch (~> 0.14.0)
+  - OpenCombineFoundation (~> 0.14.0)
+  - RxCocoa
+  - SnapKit
+  - Then
+  - TYCyclePagerView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppsFlyerFramework
+    - BRPickerView
+    - DeviceKit
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - MarqueeLabel
+    - MBProgressHUD
+    - MJRefresh
+    - "NSObject+Rx"
+    - OpenCombine
+    - OpenCombineDispatch
+    - OpenCombineFoundation
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Then
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  AAILiveness:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.8/iOS-Liveness-SDK-V2.0.8.tar.bz2
+    :type: :tbz
+  AAINetwork:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.2.tar.bz2
+    :type: :tbz
+  HandyJSON:
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
+
+CHECKOUT OPTIONS:
+  AAILiveness:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-liveness-detection/2.0.8/iOS-Liveness-SDK-V2.0.8.tar.bz2
+    :type: :tbz
+  AAINetwork:
+    :http: https://prod-guardian-cv.oss-ap-southeast-5.aliyuncs.com/sdk/iOS-libraries/AAINetwork/AAINetwork-V1.0.2.tar.bz2
+    :type: :tbz
+  HandyJSON:
+    :commit: 58fc08ae53f0eb4d83e2f85b2d6118d000b1a726
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
+
+SPEC CHECKSUMS:
+  AAILiveness: 5ab3a59d6cc70f8da3dbe314aec272adb5a6bf68
+  AAINetwork: 02c3979092230f269eeaeaa273bbaae209a6b3ac
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AppsFlyerFramework: 6eb4d89d2eb9a6632317f1055b359d9fd85fd5ff
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
+  DeviceKit: bcce5c26d9502e77e3a9fa5d1282877db388d922
+  HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: a18f05d3b6d37d8650ee4a3e61d57a28fc6207f6
+  MarqueeLabel: d2388949ac58d587303178d56a792ba8a001b037
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  OpenCombine: 99bf5bc4fce0e34507031a9f277e927bbe25a722
+  OpenCombineDispatch: b52c5950f5f87677293b4d96931168c50b437f91
+  OpenCombineFoundation: bf2d665981bbc59fa99f34302d457a520297df8f
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+
+PODFILE CHECKSUM: 21a978c3b85539ad6a85c6ccd5ba86a7e058d02c
+
+COCOAPODS: 1.14.2
